@@ -27,7 +27,7 @@ namespace MoreLinq
             //        new { Name = "Kalle", Datum = "2022-11-05", Summa = 2100 },
             //        new { Name = "Lisa", Datum = "2022-11-06", Summa = 2200 },                    
             //    }.ToList()
-
+            var test = 12345;
             //};
 
             //foreach (var item in annons2.Bids)
