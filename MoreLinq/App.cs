@@ -4,7 +4,7 @@ namespace MoreLinq
 {
     public class App
     {
-        //public void Run()
+        public void Run()
         //{
         //    var annons = new
         //    {
