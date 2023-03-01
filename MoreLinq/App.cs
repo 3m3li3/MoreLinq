@@ -5,7 +5,7 @@ namespace MoreLinq
     public class App
     {
         public void Run()
-        //{
+        {
               var test = 12345;
               
         //    var annons = new
