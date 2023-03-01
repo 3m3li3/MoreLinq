@@ -4,36 +4,36 @@ namespace MoreLinq
 {
     public class App
     {
-        public void Run()
-        {
-            var annons = new
-            {
-                EndDate = DateTime.Now.AddDays(30),
-                Seller = "Stefan Holmberg",
-                Title = "Playstation 5",
-                Description = "Nästan oanvänd",
-                Price = 5500
-            };
+        //public void Run()
+        //{
+        //    var annons = new
+        //    {
+        //        EndDate = DateTime.Now.AddDays(30),
+        //        Seller = "Stefan Holmberg",
+        //        Title = "Playstation 5",
+        //        Description = "Nästan oanvänd",
+        //        Price = 5500
+        //    };
 
-            var annons2 = new
-            {
-                EndDate = DateTime.Now.AddDays(30),
-                Seller = "Stefan Holmberg",
-                Title = "Playstation 5",
-                Description = "Nästan oanvänd",
-                Price = 5500,
-                Bids = new[]
-                {
-                    new { Name = "Kalle", Datum = "2022-11-05", Summa = 2100 },
-                    new { Name = "Lisa", Datum = "2022-11-06", Summa = 2200 },
-                }.ToList()
+        //    var annons2 = new
+        //    {
+        //        EndDate = DateTime.Now.AddDays(30),
+        //        Seller = "Stefan Holmberg",
+        //        Title = "Playstation 5",
+        //        Description = "Nästan oanvänd",
+        //        Price = 5500,
+        //        Bids = new[]
+        //        {
+        //            new { Name = "Kalle", Datum = "2022-11-05", Summa = 2100 },
+        //            new { Name = "Lisa", Datum = "2022-11-06", Summa = 2200 },
+        //        }.ToList()
 
-            };
+        //    };
 
-            foreach (var item in annons2.Bids)
-            {
-                Console.WriteLine(item);
-            }
+        //    foreach (var item in annons2.Bids)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
 
 
             string sentence = "Hej PÅ dig HALLÅ";
