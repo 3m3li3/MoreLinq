@@ -6,54 +6,54 @@ namespace MoreLinq
     {
         public void Run()
         {
-            //var annons = new
-            //{
-            //    EndDate = DateTime.Now.AddDays(30),
-            //    Seller = "Stefan Holmberg",
-            //    Title = "Playstation 5",
-            //    Description = "Nästan oanvänd",
-            //    Price = 5500
-            //};
+            var annons = new
+            {
+                EndDate = DateTime.Now.AddDays(30),
+                Seller = "Stefan Holmberg",
+                Title = "Playstation 5",
+                Description = "Nästan oanvänd",
+                Price = 5500
+            };
 
-            //var annons2 = new
-            //{
-            //    EndDate = DateTime.Now.AddDays(30),
-            //    Seller = "Stefan Holmberg",
-            //    Title = "Playstation 5",
-            //    Description = "Nästan oanvänd",
-            //    Price = 5500,
-            //    Bids = new[]
-            //    {
-            //        new { Name = "Kalle", Datum = "2022-11-05", Summa = 2100 },
-            //        new { Name = "Lisa", Datum = "2022-11-06", Summa = 2200 },                    
-            //    }.ToList()
+            var annons2 = new
+            {
+                EndDate = DateTime.Now.AddDays(30),
+                Seller = "Stefan Holmberg",
+                Title = "Playstation 5",
+                Description = "Nästan oanvänd",
+                Price = 5500,
+                Bids = new[]
+                {
+                    new { Name = "Kalle", Datum = "2022-11-05", Summa = 2100 },
+                    new { Name = "Lisa", Datum = "2022-11-06", Summa = 2200 },
+                }.ToList()
 
-            //};
+            };
 
-            //foreach (var item in annons2.Bids)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            foreach (var item in annons2.Bids)
+            {
+                Console.WriteLine(item);
+            }
 
 
-            //string sentence = "Hej PÅ dig HALLÅ";
+            string sentence = "Hej PÅ dig HALLÅ";
 
-            //var words = sentence.Split(' ').Where(x => x == x.ToUpper());
+            var words = sentence.Split(' ').Where(x => x == x.ToUpper());
 
-            //foreach (var item in words)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            foreach (var item in words)
+            {
+                Console.WriteLine(item);
+            }
 
-            //string[] cities =
-            //{
-            //    "ROME","LONDON","NAIROBI","CALIFORNIA","ZURICH","NEW DELHI","AMSTERDAM","ABU DHABI", "PARIS"
-            //};
+            string[] cities =
+            {
+                "ROME","LONDON","NAIROBI","CALIFORNIA","ZURICH","NEW DELHI","AMSTERDAM","ABU DHABI", "PARIS"
+            };
 
-            //foreach (var item in cities.OrderBy(x => x.Length).ThenBy(x => x))
-            //{
-            //    Console.WriteLine(item);
-            //}
+            foreach (var item in cities.OrderBy(x => x.Length).ThenBy(x => x))
+            {
+                Console.WriteLine(item);
+            }
 
 
             List<Customer> customers = new List<Customer>() {
